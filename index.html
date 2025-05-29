@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Даниил Сазонов</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-900 p-8 font-sans">
+  <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">  <!-- Обертка всего сайта, задний фон -->
+
+    <!-- Header -->
+    <section class="relative">
+      <!-- <img src="https://png.pngtree.com/png-vector/20191107/ourmid/pngtree-abstract-square-shape-beautiful-repeat-pattern-design-png-image_1953439.jpg" 
+          alt="Profile" 
+          class="absolute top-0 right-0 w-28 h-28 rounded-full shadow-md"> -->
+      <div class="pr-32">
+        <h1 class="text-2xl font-bold">Даниил Сазонов</h1>
+        <p class="text-gray-600">Backend-разработчик</p>
+        <p class="text-sm text-gray-500">Приднестровская Молдавская Республика</p>
+        <div class="flex space-x-4 mt-2">
+          <a href="https://github.com/sazonov2703" class="text-gray-500 hover:text-gray-700 hover:underline"> GitHub</a>
+          <a href="https:/t.me/sazonov2703" class="text-gray-500 hover:text-gray-700 hover:underline"> Telegram</a>
+        </div>
+      </div>
+      <hr class="my-8 border-t-2 border-gray-200" />
+    </section>
+
+    <!-- About -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold mb-2">Обо мне</h2>
+      <p>Я backend-разработчик с опытом работы в небольшой команде. 
+        Постоянно развиваюсь, изучаю современные технологии и стараюсь быть в курсе актуальных практик.
+        Помимо разработки увлекаюсь кибербезопасностью. Обожаю линуксовые дистрибутивы(если бы потребность в ворде/екселе - арч был бы единственной домашней ОС).
+        В свободное время играю на гитаре, занимаюсь тяжелой атлетикой и спикерю, когда есть возможность делиться опытом. <br />
+        В данный момент активно ищу работу, чтобы кодить кодить где-то в кафе, попивая ванильный латте с круассаном.
+      </p>
+      <hr class="my-8 border-t-2 border-gray-200" />
+    </section>
+
+    <!-- Work Expirience -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold mb-2">Опыт работы</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-bold">Smartplace <span class="text-sm font-normal">Гибрид</span></h3>
+          <p class="text-sm text-gray-600">Junior Backend Developer (2024-2025)</p>
+          <p>Имплементировал новые фичи, учился работать в команде, стажировался...</p>
+        </div>
+      </div>
+      <hr class="my-8 border-t-2 border-gray-200" />
+    </section>
+
+    <!-- Education -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold mb-2">Образование</h2>
+      <p>Приднестровский Государственный Университет<br />
+        Информатика и программная инженерия (2024-2028)</p>
+      <hr class="my-8 border-t-2 border-gray-200" />
+    </section>
+
+    <!-- Skills -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold mb-2">Навыки
+      </h2>
+      <div class="flex flex-wrap gap-2">
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Asp .NET Core</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Bash</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">CSS</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">C#</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Domain Driven Design</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Docker</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Docker-compose</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">EF Core</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Git</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">HTML</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">JavaScript</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Linux</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">PostgreSQL</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">Python</span>
+        <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">RabbitMQ</span>
+      </div>
+      <hr class="my-8 border-t-2 border-gray-200" />
+    </section>
+
+    <!-- Projects -->
+    <section class="mt-6">
+      <h2 class="font-semibold text-lg mb-2">Проекты</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+          <!-- DrugsBot -->
+          <div class="border rounded p-3 bg-gray-50 flex flex-col h-48">
+            <h3 class="font-semibold">DrugsBot(Dex)</h3>
+            <p class="text-sm text-gray-700 mt-1">Практикум от большой компании. Крутой опыт по всем технологиям и подходам в backend разработке: 
+              SOLID, CQRS, паттерны, архитектура, брокеры сообщений и тд.</p>
+              <div class="mt-auto flex flex-col gap-1">
+                <p class="text-xs text-gray-500">Asp .NET Core · PostgreSQL · RabbitMQ · Docker</p>
+                <a href="https://github.com/sazonov2703/DrugsBotRb" class="text-sm text-gray-500 hover:text-gray-700 hover:underline flex items-center"> GitHub </a>
+              </div>
+          </div>
+
+          <!-- Tasked -->
+          <div class="border rounded p-3 bg-gray-50 flex flex-col h-48">
+            <h3 class="font-semibold">Tasked</h3>
+            <p class="text-sm text-gray-700 mt-1">Онлайн TO-DO сервис. Можно легко интегрировать в интерфейсы/виджеты.</p>
+      
+              <div class="mt-auto flex flex-col gap-1">
+                <p class="text-xs text-gray-500">Asp .NET Core · PostgreSQL · Docker</p>
+                <a href="https://github.com/sazonov2703/Tasked" class="text-sm text-gray-500 hover:text-gray-700 hover:underline flex items-center"> GitHub </a>
+              </div>
+          </div>
+
+          <!-- ??? -->
+          <div class="border rounded p-3 bg-gray-50 flex flex-col h-48">
+            <h3 class="font-semibold">???</h3>
+            <p class="text-sm text-gray-700 mt-1">Удобный сервис-органайзер заказов для микро-бизнеса в социальных сетях.
+              Все нужное в одном месте: без Excel, блокнотов и путаницы.
+              На данный момент в разработке.</p>
+      
+              <div class="mt-auto flex flex-col gap-1">
+                <p class="text-xs text-gray-500">Asp .NET Core · PostgreSQL · React</p>
+                <a href="https://" class="text-sm text-gray-500 hover:text-gray-700 hover:underline flex items-center"> Landing </a>
+              </div>
+          </div>
+
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
